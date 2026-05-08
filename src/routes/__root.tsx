@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Eretec - Welcome" },
+      { name: "description", content: "A modern, static welcome page built with Vite, ready for Vercel deployment." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Eretec - Welcome" },
+      { property: "og:description", content: "A modern, static welcome page built with Vite, ready for Vercel deployment." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Eretec - Welcome" },
+      { name: "twitter:description", content: "A modern, static welcome page built with Vite, ready for Vercel deployment." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/6CjvyJvdiLgzAehb4zECX4084g63/social-images/social-1778241715383-imagem.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/6CjvyJvdiLgzAehb4zECX4084g63/social-images/social-1778241715383-imagem.webp" },
     ],
     links: [
       {
